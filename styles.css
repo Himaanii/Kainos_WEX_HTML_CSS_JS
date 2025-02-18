@@ -1,0 +1,61 @@
+body {
+    background-color: #f1e3d3;
+}
+
+h1 {
+    font-size: 50pt;
+    font-family: "Georgia", serif;
+    color: #c58c6d;
+}
+
+h2 {
+    font-size: 25pt;
+    font-family: "Georgia", serif;
+    color: #b7b7a4;
+}
+
+h3 {
+    font-family: "Georgia", serif;
+    color: #895737;
+}
+
+.list {
+    font-family: "Garamond", serif;
+    color: #895737;
+    
+}
+
+#menus-list {
+    border: 5px outset #6b705c;
+    background-color: #faf1e8;
+}
+
+#menu {
+    border: 5px outset #895737;
+    background-color: #faf1e8
+}
+
+#prices {
+    color: #6b705c;
+    border: 5px outset #6b705c;
+    background-color: #faf1e8
+}
+
+.information {
+    font-family: "Garamond", serif;
+    color: #6b705c;
+}
+
+.menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #c58c6d;
+  padding: 5px;
+}
