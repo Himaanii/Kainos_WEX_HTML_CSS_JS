@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>NLP Drone Order page</title>
+    <link rel="stylesheet" href="order_style.css">
+</head>
+    <body>
+        <h1 id ="Header">Order below:</h1>
+         
+        <form id="orderForm">
+            <!--input name-->
+            <label class='labels' for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required> <br><br>
+            
+            <!--input email    -->
+            <label class='labels' for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required> <br><br>
+            
+            <!--input address-->
+            <label class='labels' for="street">Street Name:</label>
+            <input type="text" id="street" name="street" required> <br><br> 
+            
+            <!--select a product-->
+            <label class='labels' for="product">Select Product:</label>
+            <select id="product" name="product" required>
+                <option value=""></option>
+                <option value="Mini_drone">Mini Drone</option>
+                <option value="Mega_drone">Mega drone</option>
+                <option value="SUPER_MEGA_DRONE">SUPER MEGA DRONE</option>
+                
+            </select> <br><br>
+            <button type="submit" onclick="func()">Order</button>
+        </form>
+        
+        
+        <div align="center">
+        <div class="topnav">
+              <a class="active" href="index.html">Home</a>
+              <a href="order.html">Order</a>
+              <a href="contactus.html">Contact</a>
+              <a href="about.html">About</a>
+        </div>
+        
+        <script src="javascript.js"></script>
+    </body>
+</html>
