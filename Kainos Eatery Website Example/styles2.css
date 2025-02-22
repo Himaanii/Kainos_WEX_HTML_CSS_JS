@@ -1,0 +1,39 @@
+:root {
+    --main-heading-colour: #41679f;
+    --text-font: 'Franklin Gothic Medium', sans-serif;
+  }
+  
+  h1 {
+    color: var(--main-heading-colour);
+    font-size: 50pt;
+    font-family: var(--text-font);
+    position: relative;
+    left: 10px;
+    top: 20px;
+  }
+  
+  h2 {
+    color: var(--main-heading-colour);
+    font-size: 30pt;
+    font-family: var(--text-font);
+  }
+  
+  .menu-list {
+    font-family: var(--text-font);
+  }
+  
+  #food-menu {
+    background-color: pink;
+  }
+  
+  #drinks-menu {
+    background-color: green;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: orange;
+  }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kainos & Co. Eatery</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <h1>Book a table</h1>
+  
+  <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br><br>
+    
+    <button onclick="checkAvailability()">Check Availability</button>
+
+    
+    <button onclick="bookTable()">Book Table</button>
+    
+    <h2>Check Booking</h2>
+
+    <label for="checkBookingEmail">Email:</label>
+    <input type="email" id="checkBookingEmail" name="email"><br><br>
+    
+    <button onclick="checkBooking()">Check Booking</button>
+    <p></p>
+    <label for="emptyFname">First name:</label>
+    <p name="emptyFname" id="emptyFname"></p>
+    
+    <label for="emptyLname">Last name:</label>
+    <p name="emptyLname" id="emptyLname"></p>
+    
+    <label for="emptyEmail">Email:</label>
+    <p name="emptyEmail" id="emptyEmail"></p>
+    
+    <label for="emptyDate">Date:</label>
+    <p name="emptyDate" id="emptyDate"></p>
+
+    <script>
+        function sayHello() {
+            alert("hello there")
+        }
+    </script>
+  <script src="script.js"></script>
+  
+  
+</body>
+</html>
