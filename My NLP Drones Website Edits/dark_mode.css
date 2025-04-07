@@ -1,0 +1,149 @@
+:root {
+    --light-blue: #b4c3cc;
+    --gray-blue: #58717d;
+    --white:#f4fefe;
+    --black: #0a0e14;
+    --forest-blue:#182b31;
+    --dark-teal: #1e3a46;
+    --font: cascadia code, monospace;
+}
+
+body {
+    background-color:var(--black);
+    color: var(--gray-blue);
+    font-family: var(--font);
+    font-weight: 600;
+    text-align: center;
+}
+
+h1 {
+    color: var(--white);
+    font-family: var(--font);
+    font-weight: bolder;
+}
+
+h2 {
+    color: var(--white);
+    font-family: var(--font);
+}
+
+h3 {
+    color: var(--light-blue);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: var(--forest-blue);
+    width: fit-content;
+    margin: auto;
+}
+
+.topnav a {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.topnav a:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+  
+.topnav a.active {
+    background-color: var(--gray-blue);
+    color: var(--white);
+    text-align: center;
+}
+
+#greeting {
+    color: var(--gray-blue);
+}
+
+#images{
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-radius: 150px;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.labels {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--light-blue);
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button {
+    width: 100%;
+    font-family: var(--font);
+    background-color: var(--dark-teal);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+button:hover {
+    background-color: var(--gray-blue);
+}
+
+#image2{
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border-radius: 50px;
+  
+}
+
+.toggle {
+    width: 185px;
+    margin: 0 auto;
+}
+
+
+.contact a.link { color: var(--gray-blue); }  /* unvisited links       */
+.contact a:visited        { color: var(--light-blue); }  /* visited links         */
+.contact a:hover, a:focus { color: var(--white); }  /* user hovers, or focus */
+.contact a:active         { color: var(--gray-blue); }  /* active links          */
